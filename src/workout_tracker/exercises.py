@@ -104,6 +104,5 @@ class CardioExercise(Exercise):
         """Return detailed string representation."""
         # TODO: Return something like "Running (3.5 miles, 30 min): 350 calories"
         # Include self.name, self.distance, self.duration, and self.calculate_calories()
-        return f"{super().name} ({self.distance} miles, {self.duration} min): {self.calculate_calories()} calories"
+        return f"{self.name} ({self.distance} miles, {self.duration} min): {self.calculate_calories()} calories"
 
-    
